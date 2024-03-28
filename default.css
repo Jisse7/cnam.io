@@ -1,0 +1,101 @@
+html {
+	font-family: arial;
+	font-size: 18px;
+	background-color: linear-gradient(356deg, rgba(104, 94, 199, 1) 44%, rgba(97, 51, 166, 1) 66%);
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url("exec.png")
+}
+
+button {
+	background-color:rgba(97, 51, 166, 1) ;
+	color: white;
+	border: 0;
+	cursor: pointer;
+	padding: 5px;
+	font-size: 1em;
+}
+
+tr {
+	margin-top: 150px;
+}
+
+input {
+	border: 1px solid black;
+	padding: 5px 10px;
+	margin-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+header {
+	text-align: center;
+	background-color:rgba(97, 51, 166, 1);
+	padding: 10px;
+}
+
+header h1 {
+	color: #FDE3A7;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+form {
+	text-align: left;
+	display: inline-block;
+	border:	rgba(97, 51, 166, 1) solid;
+	border-radius: 3%;
+	margin: 1em;
+	padding: 1em;
+}
+
+tr.spaceUnder>td {
+	padding-bottom: 1em;
+  }
+
+
+
+#form {
+	text-align: center;
+}
+
+#info {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+#error {
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#success {
+	background-color: green;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#button {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+
